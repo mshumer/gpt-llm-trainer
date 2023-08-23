@@ -11,7 +11,7 @@ Training models is hard. You have to collect a dataset, clean it, get it in the 
 
 The goal of this project is to explore an experimental new pipeline to train a high-performing task-specific model. We try to abstract away all the complexity, so it's as easy as possible to go from idea -> performant fully-trained model.
 
-**Simply input a description of your task, and the system will generate a dataset from scratch, parse it into the right format, and fine-tune a LLaMA 2 model for you.**
+**Simply input a description of your task, and the system will generate a dataset from scratch, parse it into the right format, and fine-tune a LLaMA 2 or GPT-3.5 model for you.**
 
 ## Features
 
@@ -39,11 +39,11 @@ temperature = .4
 number_of_examples = 100
 ```
 
-2. Run all the cells (stop at `Merge the model and store in Google Drive`).
+2. Run all the cells (stop at `Merge the model and store in Google Drive` if using the LLaMA 2 version).
 
 *It'll take some time (from 10 minutes to a couple of hours, depending on how many examples you generate), but soon, you'll have your fine-tuned model!*
 
-3. After your model is trained, you can use the `Run Inference` cell to test the model, and the cells below that allow you to save and load the model to and from Google Drive for later use.
+3. After your model is trained, you can use the `Run Inference` cell (on the LLaMA 2 version) or the `Let's try it out!` cell (on the GPT-3.5 version) to test the model, and the cells below that allow you to save and load the model to and from Google Drive for later use if you are using the LLaMA version. If you're using the OpenAI version, your model will be available for use via the API or in the OpenAI Playground.
 
 ## Contributions are welcome! Some ideas:
 - improve the example generation pipeline for efficiency/cost reduction (using n=)
