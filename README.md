@@ -54,6 +54,8 @@ number_of_examples = 100
 - use GPT-4 to automatically choose the training hyperparameters (and potentially, even the model to fine-tune!) based on a few examples + high-level dataset details (i.e. number of examples)
 - train multiple model variants and choose the one with the lowest eval loss
 
+## Huge shoutout to [Maxime LaBonne](https://twitter.com/maximelabonne) for the training code that was used in this repo!
+
 ## License
 
 This project is [MIT](https://github.com/mshumer/gpt-llm-trainer/blob/master/LICENSE) licensed.
