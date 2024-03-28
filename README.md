@@ -13,7 +13,7 @@ Training models is hard. You have to collect a dataset, clean it, get it in the 
 
 The goal of this project is to explore an experimental new pipeline to train a high-performing task-specific model. We try to abstract away all the complexity, so it's as easy as possible to go from idea -> performant fully-trained model.
 
-**Simply input a description of your task, and the system will generate a dataset from scratch, parse it into the right format, and fine-tune a LLaMA 2 or GPT-3.5 model for you.**
+**Simply input a description of your task, and the system will generate a dataset from scratch, parse it into the right format, and fine-tune an LLaMA 2 or GPT-3.5 model for you.**
 
 ## Features
 
